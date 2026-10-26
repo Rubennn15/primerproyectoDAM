@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional Técnico e Ingeniería de Software - DAM y SMR</title>
+    <style>
+        :root {
+            --primary-bg: rgba(0, 110, 255, 0.667);
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --accent-color: #0284c7;
+            --dark-accent: #0f172a;
+            --border-color: #cbd5e1;
+            --shadow-color: rgba(0, 0, 0, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--primary-bg);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .main-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px var(--shadow-color);
+        }
+
+        .header-profile {
+            text-align: center;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        .header-profile h1 {
+            font-size: 2.4rem;
+            color: var(--dark-accent);
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .header-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .intro-text {
+            font-size: 1.05rem;
+            text-align: justify;
+            margin-bottom: 25px;
+            color: #334155;
+        }
+
+        h2.section-heading {
+            font-size: 1.6rem;
+            color: var(--dark-accent);
+            background-color: #f1f5f9;
+            padding: 12px 18px;
+            border-left: 6px solid var(--accent-color);
+            border-radius: 4px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h3.subsection-heading {
+            font-size: 1.3rem;
+            color: var(--accent-color);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            font-size: 1rem;
+        }
+
+        ul.index-list {
+            background-color: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px 20px 20px 40px;
+            margin-bottom: 25px;
+        }
+
+        ul.index-list li {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: var(--dark-accent);
+        }
+
+        ul.detail-list {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        ul.detail-list li {
+            margin-bottom: 6px;
+        }
+
+        .media-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img.content-img {
+            width: 100%;
+            max-width: 650px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            border: 1px solid var(--border-color);
+        }
+
+        hr.divider {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, rgba(0,0,0,0), var(--accent-color), rgba(0,0,0,0));
+            margin: 40px 0;
+        }
+
+        .highlight-box {
+            background-color: #e0f2fe;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+
+    <!-- ENCABEZADO Y PRESENTACIÓN GENERAL -->
+    <header class="header-profile">
+        <h1>DOSSIER TÉCNICO Y PERFIL PROFESIONAL</h1>
+        <p><strong>Especialista en Infraestructura Informática, Mantenimiento de Hardware y Desarrollo de Software Multiplataforma</strong></p>
+    </header>
+
+    <section>
+        <p class="intro-text">
+            Bienvenido a mi dossier técnico profesional. Soy un profesional altamente capacitado dentro del sector de las Tecnologías de la Información y la Comunicación (TIC), cuya trayectoria combina una sólida base en sistemas microinformáticos, redes de datos y mantenimiento de hardware, con una especialización avanzada en la arquitectura y desarrollo de aplicaciones informáticas multiplataforma. Mi trayectoria abarca desde el ámbito físico de los equipos y las telecomunicaciones hasta la capa de lógica de negocio y programación orientada a objetos.
+        </p>
+        <p class="intro-text">
+            Esta combinación híbrida me otorga una perspectiva integral dentro del ciclo de vida tecnológico: comprendo con precisión cómo interactúa el código compilado con los recursos físicos de la máquina, las llamadas al sistema operativo, la gestión de la memoria, las conexiones de red subyacentes y la persistencia en bases de datos relacionales y no relacionales. Mi objetivo es continuar construyendo soluciones digitales robustas, eficientes, seguras y escalables que aporten un valor real al ecosistema empresarial e institucional.
+        </p>
+    </section>
+
+    <!-- SECCIÓN DE NAVEGACIÓN O ÍNDICE -->
+    <h2 class="section-heading">📌 Estructura General del Perfil</h2>
+    <ul class="index-list">
+        <li>🎓 1. Trayectoria de Formación Reglada y Capacitación Técnica
+            <ul>
+                <li>🛠️ 1.1 Grado Medio en Sistemas Microinformáticos y Redes (SMR)</li>
+                <li>💻 1.2 Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</li>
+            </ul>
+        </li>
+        <li>💼 2. Experiencia Laboral y Prácticas Profesionales
+            <ul>
+                <li>🔧 2.1 Reacondicionamiento, Diagnóstico y Reparación de Ordenadores</li>
+                <li>🔄 2.2 Optimización de Procesos de Reciclaje Informático y Sostenibilidad</li>
+            </ul>
+        </li>
+        <li>🛠️ 3. Catálogo Extenso de Competencias y Habilidades Técnicas
+            <ul>
+                <li>🖥️ 3.1 Hardware, Arquitectura de Computadores y Ensamblaje</li>
+                <li>🌐 3.2 Redes Locales, Enrutamiento y Administración de Sistemas</li>
+                <li>☕ 3.3 Programación, Algoritmos y Patrones de Diseño (Java/C#)</li>
+                <li>🗄️ 3.4 Modelado y Gestión de Bases de Datos (SQL)</li>
+                <li>🔍 3.5 Depuración de Código, Optimización y Análisis de Fallos</li>
+            </ul>
+        </li>
+        <li>🎯 4. Proyección Futura, Metodologías y Objetivos Profesionales</li>
+    </ul>
+
+    <hr class="divider">
+
+    <!-- SECCIÓN 1: FORMACIÓN ACADÉMICA DETALLADA -->
+    <h2 class="section-heading">🎓 1. Trayectoria de Formación Reglada y Capacitación Técnica</h2>
+
+    <p> 
+        Mi itinerario formativo ha sido diseñado estratégicamente para cubrir de punta a punta las necesidades informáticas actuales. La transición de una titulación de Grado Medio enfocada a los sistemas hacia una titulación de Grado Superior orientada al desarrollo de software me permite abordar proyectos desde múltiples capas tecnológicas.
+    </p>
+
+    <h3 class="subsection-heading">🛠️ 1.1 Grado Medio en Sistemas Microinformáticos y Redes (SMR)</h3>
+    <p>
+        La obtención de la titulación oficial de Técnico en Sistemas Microinformáticos y Redes (SMR) constituyó el pilar fundamental de mis conocimientos tecnológicos. Durante esta etapa formativa de carácter eminentemente práctico, adquirí un dominio exhaustivo sobre la arquitectura física de los ordenadores, los periféricos y la interconexión de equipos dentro de entornos corporativos y domésticos.
+    </p>
+    <p>
+        Entre las materias y módulos cursados con mayor profundidad destacan:
+    </p>
+    <ul class="detail-list">
+        <li><strong>Montaje y Mantenimiento de Equipos:</strong> Estudio analítico de componentes internos (microprocesadores, zócalos, memoria RAM, buses de datos, fuentes de alimentación, placas base y almacenamiento masivo HDD/SSD/NVMe). Diagnóstico de averías mediante pruebas de tensión, códigos POST y sustitución de módulos defectuosos.</li>
+        <li><strong>Sistemas Operativos Monopuesto y En Red:</strong> Instalación, despliegue, automatización y configuración avanzada de distribuciones Windows (10, 11, Windows Server) y entornos GNU/Linux (Ubuntu, Debian, CentOS). Gestión de licencias, sistemas de archivos (NTFS, ext4), particionado y permisos de usuarios.</li>
+        <li><strong>Redes Locales:</strong> Diseño topológico de redes de área local (LAN). Montaje de cableado estructurado bajo la normativa UTP/FTP (categorías 5e, 6, 6A) y conectorización RJ45. Configuración de parámetros de red bajo el modelo TCP/IP, subredes, máscaras de red, puertas de enlace, servidores DHCP y resolución de nombres mediante DNS.</li>
+        <li><strong>Aplicaciones Web y Servicios en Red:</strong> Despliegue de servidores web locales (Apache, Nginx), gestión de servidores de transferencia de archivos (FTP/SFTP), cliente de correo y nociones clave de virtualización (VirtualBox, VMware).</li>
+        <li><strong>Seguridad Informática:</strong> Implantación de políticas de copias de seguridad (backup incremental, diferencial y completo), protección antimalware, cortafuegos (firewalls) y encriptación de volúmenes de almacenamiento.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800" alt="Mantenimiento de Servidores y Redes" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">💻 1.2 Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+    <p>
+        Con la finalidad de evolucionar profesionalmente hacia el ámbito del desarrollo de software, me encuentro cursando el Grado Superior de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM). Esta titulación oficial está enfocada a la creación de soluciones informáticas capaces de ser ejecutadas de forma transparente en diversos entornos operativos, incluyendo escritorio (Windows, Linux, macOS), dispositivos móviles (Android, iOS) y arquitecturas distribuidas cliente-servidor.
+    </p>
+    <p>
+        Dentro de este programa formativo avanzado, destaco el aprendizaje intensivo en los siguientes bloques técnicos:
+    </p>
+    <ul class="detail-list">
+        <li><strong>Programación Básica y Avanzada:</strong> Uso riguroso de lenguajes como Java y C#. Control de flujo de datos, tipos de datos abstractos, manejo de excepciones, lectura/escritura de ficheros y aplicación estricta del paradigma de Programación Orientada a Objetos (POO) mediante clases, objetos, herencia, polimorfismo, abstracción y encapsulamiento.</li>
+        <li><strong>Bases de Datos:</strong> Diseño conceptual, lógico y físico de bases de datos relacionales mediante diagramas Entidad-Relación. Lenguaje SQL normalizado para la creación de tablas, definición de claves primarias y foráneas, consultas complejas con cláusulas JOIN, agrupaciones, subconsultas, vistas, disparadores (triggers) y procedimientos almacenados.</li>
+        <li><strong>Entornos de Desarrollo:</strong> Manejo fluido de entornos de desarrollo integrados (IDEs) como Eclipse, IntelliJ IDEA, NetBeans y Visual Studio Code. Uso de sistemas de control de versiones centralizados y distribuidos (Git, GitHub, GitLab) para el seguimiento de cambios y trabajo colaborativo.</li>
+        <li><strong>Desarrollo de Interfaces:</strong> Diseño visual enfocado a la usabilidad (UX) y la experiencia de usuario (UI). Creación de componentes gráficos mediante librerías y frameworks como JavaFX, Swing, HTML5/CSS3 y gestores de maquetación adaptativa.</li>
+        <li><strong>Acceso a Datos:</strong> Utilización de tecnologías de mapeo objeto-relacional (ORM) como Hibernate o JPA para conectar la capa de lógica de negocio orientada a objetos directamente con motores de bases de datos como MySQL, PostgreSQL, MariaDB o SQLite.</li>
+        <li><strong>Programación Multimedia y Dispositivos Móviles:</strong> Arquitectura de desarrollo para Android utilizando el entorno Android Studio, gestión de actividades, fragmentos, intenciones, servicios en segundo plano y consumo de servicios Web API RESTful mediante formato JSON/XML.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800" alt="Desarrollo de Código y Programación" class="content-img">
+    </div>
+
+    <hr class="divider">
+
+    <!-- SECCIÓN 2: EXPERIENCIA LABORAL -->
+    <h2 class="section-heading">💼 2. Experiencia Laboral y Prácticas Profesionales</h2>
+
+    <p>
+        La teoría técnica cobra verdadero sentido cuando se aplica en entornos productivos reales. Mi paso por el sector laboral me ha permitido enfrentarme a cuellos de botella reales, incidencias complejas y entregas bajo plazos ajustados, consolidando una mentalidad orientada a resultados y a la satisfacción del cliente o usuario final.
+    </p>
+
+    <h3 class="subsection-heading">🔧 2.1 Reacondicionamiento, Diagnóstico y Reparación de Ordenadores</h3>
+    <p>
+        Durante mi periodo de prácticas formativas en centro de trabajo (FCT), desempeñé mis funciones en una empresa especializada en el reacondicionamiento, reparación, optimización y venta de equipos informáticos de ocasión y rendimiento profesional. Esta experiencia representó un aprendizaje inestimable al ponerme en contacto directo con cientos de combinaciones de hardware y fallos sintomáticos.
+    </p>
+    <div class="highlight-box">
+        <strong>Resumen de Responsabilidades Diarias en la Empresa de Reacondicionamiento:</strong>
+        <p>Procesado de lotes de ordenadores de empresa, limpieza por ultrasonidos y aire a presión, testeo de estrés de CPU/GPU, reemplazo de pasta térmica, actualización de firmware BIOS/UEFI, diagnóstico de placas base defectuosas y borrado seguro de datos mediante normativas internacionales.</p>
+    </div>
+    <p>
+        Las tareas específicas realizadas abarcaron los siguientes procedimientos operacionales:
+    </p>
+    <ul class="detail-list">
+        <li><strong>Triaje y Diagnóstico Técnico Inicial:</strong> Recepción de lotes informáticos procedentes de renovaciones corporativas. Inspección visual minuciosa, encendido mediante fuentes de alimentación reguladas y ejecución de software de diagnóstico especializado (MemTest86 para RAM, CrystalDiskInfo/HWiNFO para unidades de almacenamiento y pruebas de estrés con FurMark o Prime95).</li>
+        <li><strong>Mantenimiento Físico e Intervención Interna:</strong> Desmontaje integral de torres, mini-PCs y ordenadores portátiles. Limpieza de conductos de refrigeración, disipadores y ventiladores. Reemplazo de compuesto térmico (pasta térmica de alta conductividad) en procesadores principales (CPU) y chips gráficos (GPU) para mitigar el estrangulamiento térmico (thermal throttling).</li>
+        <li><strong>Reparación y Reemplazo de Componentes:</strong> Sustitución de módulos de memoria defectuosos, cambio de pantallas LCD/LED en portátiles, reemplazo de teclados, conectores de carga (DC Jack) y fuentes de alimentación con fallos de tensión. Conversión masiva de equipos obsoletos mediante la sustitución de discos duros mecánicos (HDD) por unidades de estado sólido (SSD SATA/NVMe), incrementando el rendimiento general en más de un 300%.</li>
+        <li><strong>Instalación Masiva de Sistemas y Despliegue:</strong> Creación e implantación de imágenes de sistema operativo estandarizadas mediante herramientas como Clonezilla, Rufus o herramientas PXE a través de red local. Instalación de controladores (drivers) oficiales actualizados y paquetes de software esenciales de oficina y utilidad.</li>
+        <li><strong>Borrado Seguro de Información:</strong> Aplicación de protocolos internacionales de borrado de datos (tales como la norma DoD 5220.22-M o NIST SP 800-88) en discos duros usados para garantizar la irrecuperabilidad absoluta de datos confidenciales de anteriores usuarios o empresas, asegurando la privacidad jurídica.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800" alt="Taller de Reparación e Ingeniería Informática" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">🔄 2.2 Optimización de Procesos de Reciclaje Informático y Sostenibilidad</h3>
+    <p>
+        Además del apartado puramente técnico, mi labor dentro del taller de reacondicionamiento tuvo una clara vertiente ecológica e investigadora. Promoví la reutilización de componentes funcionales descartados de equipos irreparables para montar configuraciones 'custom' totalmente operativas para ámbitos educativos o de oficina básica. Esto no solo redujo considerablemente el volumen de residuos electrónicos (e-waste) generados por la empresa, sino que optimizó el margen de beneficio operacional mediante la valorización de recursos tecnológicos preexistentes.
+    </p>
+
+    <hr class="divider">
+
+    <!-- SECCIÓN 3: COMPETENCIAS TÉCNICAS -->
+    <h2 class="section-heading">🛠️ 3. Catálogo Extenso de Competencias y Habilidades Técnicas</h2>
+
+    <p>
+        A continuación se detalla de forma pormenorizada el conjunto de conocimientos técnicos, metodologías y habilidades prácticas que integran mi perfil técnico actual:
+    </p>
+
+    <h3 class="subsection-heading">🖥️ 3.1 Hardware, Arquitectura de Computadores y Ensamblaje</h3>
+    <p>
+        Conocimiento pleno de la arquitectura interna de los sistemas informáticos Von Neumann y Harvard. Capacidad para diseñar presupuestos a medida según requerimientos de trabajo (ofimática, diseño gráfico, edición de vídeo, servidores de bajo consumo o entornos de desarrollo).
+    </p>
+    <ul class="detail-list">
+        <li>Dominio de compatibilidades entre socket de procesador (Intel LGA, AMD AM4/AM5) y chipsets de placa base.</li>
+        <li>Gestión de perfiles de memoria RAM (XMP, EXPO), frecuencias, latencias (CL) y configuraciones Dual/Quad Channel.</li>
+        <li>Manejo de buses de expansión PCI Express (PCIe 3.0, 4.0, 5.0), número de líneas (lanes) y velocidades teóricas de transferencia.</li>
+        <li>Cálculo de consumos energéticos, selección de fuentes de alimentación con certificación 80 Plus (Bronze, Gold, Platinum) y gestión de líneas de +12V.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800" alt="Hardware y Componentes Internos" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">🌐 3.2 Redes Locales, Enrutamiento y Administración de Sistemas</h3>
+    <p>
+        Habilidad para implementar infraestructuras de red funcionales y seguras en pequeñas y medianas empresas, garantizando la conectividad fluida entre dispositivos finales y servidores centralizados.
+    </p>
+    <ul class="detail-list">
+        <li>Cálculo de subredes e inter-dominios mediante direccionamiento IPv4 (Subnetting VLSM) y bases de IPv6.</li>
+        <li>Configuración de routers comerciales y neutros, switches gestionables (VLANs, Trunking 802.1Q) y puntos de acceso inalámbricos (Wi-Fi 5, Wi-Fi 6).</li>
+        <li>Despliegue de servicios esenciales: Servidores de nombres (DNS), Asignación dinámica (DHCP), Directorio Activo / LDAP para la gestión centralizada de usuarios en Windows Server, y carpetas compartidas bajo protocolo Samba/SMB con permisos granulados.</li>
+        <li>Acceso remoto seguro a través de protocolos SSH, Telnet, RDP (Remote Desktop Protocol) y creación de túneles VPN (OpenVPN, WireGuard).</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800" alt="Cableado y Conectividad de Redes" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">☕ 3.3 Programación, Algoritmos y Patrones de Diseño (Java/C#)</h3>
+    <p>
+        Solidez en la escritura de código limpio (Clean Code), mantenible y estructurado. Aplicación de principios SOLID de desarrollo orientado a objetos para garantizar que los módulos de software creados sean ampliables sin necesidad de reescribir código previo.
+    </p>
+    <ul class="detail-list">
+        <li><strong>Lógica Algorítmica:</strong> Estructuras condicionales (if-else, switch), bucles iterativos (for, while, do-while), algoritmos de búsqueda (lineal, binaria) y ordenación (burbuja, inserción, quicksort).</li>
+        <li><strong>Programación Orientada a Objetos:</strong> Creación de clases abstractas e interfaces. Uso riguroso del encapsulamiento mediante modificadores de acceso (public, private, protected). Aplicación de polimorfismo por sobrecarga y sobrescritura de métodos.</li>
+        <li><strong>Colecciones y Estructuras de Datos:</strong> Manejo de listas dinámicas (ArrayList, LinkedList), conjuntos (HashSet, TreeSet) y mapas clave-valor (HashMap, TreeMap) en Java. Uso de expresiones Lambda y la API Stream para la manipulación declarativa de datos.</li>
+        <li><strong>Patrones de Diseño:</strong> Implementación de patrones creacionales como Singleton o Factory, y patrones estructurales como Modelo-Vista-Controlador (MVC) para la separación de responsabilidades entre la interfaz de usuario, la lógica de negocio y el acceso a datos.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800" alt="Entorno de Programación Java" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">🗄️ 3.4 Modelado y Gestión de Bases de Datos (SQL)</h3>
+    <p>
+        Capacidad para transformar requisitos funcionales del mundo real en esquemas de datos relacionales eficientes, evitando redundancias anómalas mediante técnicas de normalización (1FN, 2FN, 3FN, BCNF).
+    </p>
+    <ul class="detail-list">
+        <li>Creación e integridad de esquemas (DDL - Data Definition Language): CREATE TABLE, ALTER TABLE, DROP TABLE, definición de restricciones NOT NULL, UNIQUE, CHECK, PRIMARY KEY y FOREIGN KEY con acciones en cascada (ON DELETE CASCADE).</li>
+        <li>Consultas avanzadas (DML - Data Manipulation Language): SELECT con agrupaciones (GROUP BY, HAVING), ordenación (ORDER BY), uniones explícitas (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN) y subconsultas correlacionadas.</li>
+        <li>Mantenimiento de la integridad transaccional mediante sintaxis ACID (Atomicity, Consistency, Isolation, Durability) utilizando COMMIT y ROLLBACK.</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800" alt="Administración de Bases de Datos" class="content-img">
+    </div>
+
+    <h3 class="subsection-heading">🔍 3.5 Depuración de Código, Optimización y Análisis de Fallos</h3>
+    <p>
+        Una de mis principales fortalezas es el enfoque metódico para aislar y corregir problemas complejos, tanto en el ámbito lógico del software como en el hardware físico.
+    </p>
+    <ul class="detail-list">
+        <li>Uso de herramientas de depuración (Debuggers) en IDEs: establecimiento de puntos de interrupción (breakpoints), inspección de variables en tiempo de ejecución y seguimiento del hilo de ejecución paso a paso (Step Over, Step Into).</li>
+        <li>Interpretación de trazas de pila (Stack Traces) para resolver excepciones habituales como NullPointerException, ArrayIndexOutOfBoundsException o ClassCastException.</li>
+        <li>Identificación de fugas de memoria (Memory Leaks), consumo excesivo de CPU y cuellos de botella en la lectura de ficheros o consultas SQL no optimizadas (falta de índices).</li>
+    </ul>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Análisis de Código y Depuración" class="content-img">
+    </div>
+
+    <hr class="divider">
+
+    <!-- SECCIÓN 4: PROYECCIÓN Y OBJETIVOS -->
+    <h2 class="section-heading">🎯 4. Proyección Futura, Metodologías y Objetivos Profesionales</h2>
+
+    <p>
+        El sector tecnológico se encuentra en constante mutación. Mi objetivo profesional a corto y medio plazo se centra en consolidar mis estudios en el Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) mientras mantengo al día mis competencias en administración de sistemas y reacondicionamiento informático.
+    </p>
+
+    <div class="highlight-box">
+        <strong>Objetivos de Desarrollo Profesional a Medio Plazo:</strong>
+        <ul style="margin-left: 20px; margin-top: 5px;">
+            <li>Especialización en el ecosistema backend con Java Spring Boot y arquitectura de Microservicios.</li>
+            <li>Profundización en contenedores mediante Docker y despliegue continuo (CI/CD).</li>
+            <li>Obtención de certificaciones oficiales de desarrollo y cloud (como AWS Certified Developer o Oracle Certified Associate Java SE).</li>
+        </ul>
+    </div>
+
+    <p>
+        En cuanto a las metodologías de trabajo, poseo un alto grado de adaptación a marcos ágiles como <strong>Scrum</strong> y <strong>Kanban</strong>, los cuales promueven el desarrollo iterativo e incremental, la transparencia, las reuniones diarias de sincronización (Daily Standups) y la entrega continua de valor funcional al cliente.
+    </p>
+    <p>
+        Mi perfil técnico representa un puente ideal dentro de cualquier departamento de TI: puedo hablar el lenguaje del técnico de sistemas, del instalador de red y del desarrollador de código, facilitando la comunicación entre áreas que tradicionalmente suelen trabajar de manera aislada. Esta versatilidad me convierte en un activo valioso para abordar proyectos complejos de transformación digital, mantenimiento corporativo y creación de software a medida.
+    </p>
+
+    <div class="media-container">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="Proyectos y Visión Tecnológica de Futuro" class="content-img">
+    </div>
+
+    <footer>
+        <p>© Dossier de Perfil Profesional Técnico - Formación en SMR, DAM y Reacondicionamiento de Hardware.</p>
+        <p>Documento HTML optimizado para presentación de currículum y portafolio técnico personal.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
